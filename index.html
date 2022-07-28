@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/bolsa.png" type="image/png">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Flavo</title>
@@ -41,9 +42,9 @@
             <input name="tipo" type="radio">JAR (150g)</input>
            </form>
         <div class="quantidade">
-            <button class="diminui">-</button>
-            <p>1</p>
-            <button class="adiciona">+</button>
+            <button onclick="Subtracao()"class="diminui">-</button>
+            <p class="numero" ">1</p>
+            <button onclick="Soma()" class="adiciona">+</button>
         </div>
         <div class="adicionar">
             <h4>ADD TO CART</h4>
