@@ -12,13 +12,10 @@ function muda() {
 	} else {
 		imagem.src="assets/cosiness.png"
 		contador = '0'
-        titulo.innerHTML = "CEBOLA"
+        titulo.innerHTML = "COSINESS"
         preco.innerHTML = "$15"
 	}
 }
-
-
-
 
 let numero = document.querySelector(".numero")
 let batata = 0;
@@ -28,7 +25,7 @@ function Soma() {
 }
 
 function Subtracao(){
-    if (batata > 0) {
+    if (batata > 1) {
         numero.innerHTML = batata-=1
     }
 }
